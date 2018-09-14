@@ -1,0 +1,68 @@
+a{
+    color: #28a745;
+}
+a:hover{
+    text-decoration: none;
+    color: #218838;
+
+}
+button, select {
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #28a745;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+.dataTables_length label {
+    display: flex;
+    margin-bottom: .5rem;
+}
+.dataTables_filter label{
+    display: flex;
+    margin-bottom: .5rem;
+}
+tr th{
+    text-align: center;
+}
+tr td {
+    text-align: center;
+}
+.breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    /*width: 100%;*/
+}
+.breadcrumb-btn{
+    padding: .1rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+.custom-control-label::before, .custom-file-label, .custom-select {
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.dropdown-menu{
+    margin: 1.125rem 0 0;
+}
